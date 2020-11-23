@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+    background-color:#131f4f;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Grandstander', cursive;
+}
+.container {
+    padding: 40px;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: #000;
+    border: 2px solid  #808080;
+}
+img {
+   width: 100%;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    
+    
+}
+h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(150, 9, 9, 0.589);
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+    
+}
+figcaption {
+    text-align: center;
+    font-size: 15PX;
+    background-color: #ccc;
+    color: #000;
+}
+
+.time_line {
+    padding: 100px;
+    
+}
+.musicas {
+    
+    text-shadow: 2px 2px 2px #13f;
+    padding: 20px;
+    border: 1px solid  #808080;
+    border-top: 2px solid #808080;
+    border-radius: ;
+    font-size: 25px;
+    color: #ccc;
+}
+ol .m1, .m2, .m3{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+    padding: 10px;
+    border: 1px solid  #808080;
+    padding:100px;
+    margin-bottom: 50px;  
+} 
+
+.rodape {
+display: flex;
+
+
+   
+}
+a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+ 
+}
+footer .autor{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:970px) {
+    .container{ 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+    .container , ol .m1, .m2, .m3{
+        display: flex;
+        border: none; 
+       align-content: center;
+       padding: 30px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    
+}
+@media  (max-width:950px) {
+    h1, h2{ margin: 20px;
+        padding: 20px;
+
+    }
+}
+@media  (max-width:700px) {
+    h1, h2{
+        margin: 80px;
+        padding: 20px;
+
+    }
+}
+  
